@@ -1,0 +1,56 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.footer{
+    background-color: #FEC6C5;
+    border: #422120 solid 2px;
+}
+span{
+    color:#F54F70;
+}
+
+p{
+    text-align: justify;
+    /* line-height: 130%; */
+}
+
+.boton{
+    background-color: #FF66C2;
+    color: white;
+}
+
+.boton:hover{
+    background-color: #fa7ec9;
+    color: rgb(165, 165, 165);
+}
+.boton:active{
+    background-color: #FEECEB;
+    color: black
+}
+
+
+.siteMap h2{
+    color: #FF66C2;
+}
+
+.siteMap a{
+    background-color: #FEC6C5;
+}
+
+.siteMap a:hover{
+    background-color: #FEECEB;
+    color: #fa7ec9;
+}
+
+
+textarea{
+    max-height: 40vh;
+}
+
+textarea:focus, input:focus{
+    box-shadow: 0 0 0 4px rgba(255, 102, 194, 0.5);
+    border-color:rgba(255, 102, 194, 0.8);
+}
+

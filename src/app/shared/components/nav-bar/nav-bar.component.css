@@ -1,0 +1,40 @@
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.col {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #fec6c5;
+}
+
+strong {
+    color: #422120;
+}
+
+span {
+    color: #f54f70;
+}
+
+.nav-link {
+    color: #422120;
+    padding: 2vh 1vh 2vh 1vh;
+    border-radius: 5px;
+    
+}
+
+.nav-link:hover {
+    background-color: #f54f70;
+    color: white;
+    border-bottom: #422120 solid 1px;
+}
